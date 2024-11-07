@@ -133,6 +133,11 @@
             bindings = <&to 4>;
             key-positions = <4 24 14>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <0 10 20>;
+        };
     };
 
     keymap {
@@ -185,10 +190,10 @@
 
         layer_5 {
             bindings = <
-  &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4    &trans  &trans  &trans  &trans  &trans
-  &trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                   &trans  &trans  &trans    &trans  &trans  &trans
+  &kp ESC  &kp N1  &sk NUMBER_2  &kp N3  &kp N4    &trans  &trans  &trans  &trans  &trans
+  &trans   &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans   &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                   &trans        &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
