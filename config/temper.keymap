@@ -130,7 +130,7 @@
         };
 
         gaming_layer {
-            bindings = <&tog 4>;
+            bindings = <&to 4>;
             key-positions = <4 24 14>;
         };
     };
